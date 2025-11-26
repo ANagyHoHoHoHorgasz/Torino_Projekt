@@ -3,25 +3,49 @@ header {
     background-color: rgb(224, 224, 224);
     border-radius: 35px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 83%;
+    margin: auto;
+    transition: transform 0.2s ease-in-out
+    
 }
-
+header:hover {
+    transform: scale(1.02);
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
+}
 main {
-    margin: 20px;
+    max-width:80%;
+    justify-content: center;
+    margin: 20px auto;
     padding: 20px;
     background-color: rgb(245, 245, 245, 0.9);
     border-radius: 15px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
+    transition: transform 0.2s ease-in-out
+    
+}
+main:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .3);
 }
 body {
-    background-image: url(kepek/b3a5d7c3233c7015fb1f37177d80181d46403324.jpg);
+    background-image: url(kepek/boscotuff.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
 }
 
 .aloldalak {
     padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a a a a"
+    "i i i i";
+    gap: 20px;
+    justify-items: center;
+
 }
 
 a {
@@ -32,6 +56,7 @@ a {
     display: inline-block;
     background-color: rgb(245, 245, 245, 0.1);
     border-radius: 10px;
+    grid-row: a;
     transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 a:hover {
@@ -39,4 +64,21 @@ a:hover {
     background-color: rgb(200, 200, 200);
     border-radius: 10px;
     transform: scale(1.2);
+}
+
+img {
+    max-width: 100%;
+    grid-row: i;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .3);
+}
+p {
+    text-align: center;
+    font-size: 1.2em;
 }
