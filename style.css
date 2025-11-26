@@ -3,30 +3,25 @@ header {
     background-color: rgb(224, 224, 224);
     border-radius: 35px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    max-width: 83%;
+    max-width: 40%;
     margin: auto;
-    transition: transform 0.2s ease-in-out
-    
+    transform: translatey(30px);
 }
-header:hover {
-    transform: scale(1.02);
-    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
+
+h1{
+    padding: 10px;
 }
 main {
     max-width:80%;
     justify-content: center;
-    margin: 20px auto;
+    margin: auto;
     padding: 20px;
-    background-color: rgb(245, 245, 245, 0.9);
-    border-radius: 15px;
+    background-color: rgb(245, 245, 245, 0.7);
+    border-radius: 60px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
-    transition: transform 0.2s ease-in-out
     
-}
-main:hover {
-    transform: scale(1.02);
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, .3);
+    
 }
 body {
     background-image: url(kepek/boscotuff.jpg);
@@ -37,7 +32,6 @@ body {
 }
 
 .aloldalak {
-    padding: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
@@ -52,16 +46,16 @@ a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    padding: 15px;
+    padding: 20px 70px;
     display: inline-block;
-    background-color: rgb(245, 245, 245, 0.1);
+    background-color: rgb(198, 198, 198);
     border-radius: 10px;
     grid-row: a;
-    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: transform 0.3s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 a:hover {
     color: rgb(160, 44, 44);
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(160, 160, 160);
     border-radius: 10px;
     transform: scale(1.2);
 }
@@ -80,5 +74,10 @@ img:hover {
 }
 p {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    background-color: rgb(217, 217, 217);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 95%;
 }
