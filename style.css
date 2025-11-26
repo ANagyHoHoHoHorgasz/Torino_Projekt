@@ -11,7 +11,32 @@ main {
     background-color: rgb(245, 245, 245, 0.9);
     border-radius: 15px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 body {
-    background-image: ;
+    background-image: url(kepek/b3a5d7c3233c7015fb1f37177d80181d46403324.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.aloldalak {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    display: inline-block;
+    background-color: rgb(245, 245, 245, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+a:hover {
+    color: rgb(160, 44, 44);
+    background-color: rgb(200, 200, 200);
+    border-radius: 10px;
+    transform: scale(1.2);
 }
