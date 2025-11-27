@@ -52,7 +52,8 @@ a {
 }
 a:hover {
     font-style: italic;
-    background-color: rgb(202, 202, 202);
+    color: rgb(160, 44, 44);
+    background-color: rgb(160, 160, 160);
     transform: scale(1.2);
     padding: 20px;
     border-radius: 50px;
