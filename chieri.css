@@ -6,10 +6,6 @@ body {
     "ar"
     "f"
     ;
-
-    max-width: 100%; 
-    margin: 0 auto;   
-    padding: 0 20px;  
 }
 
 header {
@@ -110,7 +106,7 @@ article {
        -3px -3px 5px black;
 }
 
-#Leirás {
+#Leiras {
     background-color: rgb(204, 90, 90);
     color: white;
     text-align: center, justify;
@@ -148,23 +144,83 @@ article {
 #tablazat {
     display: grid;
     grid-area: s3;
+    background-color: white;
+}
+
+#tablazat h2 {
+    font-size: 55px;
+    letter-spacing: 15px;
+    text-align: center;
+    display: grid;
+}
+
+.valdocco {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 28px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+.valdocco th {
+    font-size: 50px;
+    letter-spacing: 10px;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid black;
+}
+
+.valdocco td {
+    padding: 20px;
+    vertical-align: middle;
+    border-bottom: 3px solid black;
+}
+
+.valdocco img {
+    width: 150px;
 }
 
 #jegyarak {
     display: grid;
     grid-area: s4;
+    background-color: rgb(204, 90, 90);
+    color: white;
+    text-align: center, justify;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#jegyarak h2 {
+    font-size: 70px;
+    letter-spacing: 5px;
+    text-shadow:
+        2px 2px 4px black,
+       -2px 2px 4px black,  /*ChatGPT*/
+        2px -2px 4px black,
+       -2px -2px 4px black;
+    align-items: center;
+    text-align: center;
+    display: grid;
+}
+
+#jegyarak p {
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+    display: grid;
 }
 
 #kep2 {
     display: grid;
     grid-area: s5;
     width: 100%;
-    height: 350px;
     border-radius: 10px;
 }
 
 img {
-    max-width: 100%;
     width: 100%;
     height: 100%;
 }
