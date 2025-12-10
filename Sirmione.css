@@ -272,3 +272,9 @@ footer img {
     text-align: center;
     margin: auto;
 }
+
+@media screen and (max-widt: 600px) {
+    body{
+        
+    }
+}
