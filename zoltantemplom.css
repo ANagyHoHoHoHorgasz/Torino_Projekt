@@ -6,7 +6,7 @@ body {
     "h"
     "ar"
     "f";
-  max-width: 80%;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -139,7 +139,7 @@ article {
 
 #tablazat h2 {
   font-size: 55px;
-  letter-spacing: 15px;
+  letter-spacing: 5px;
   text-align: center;
   display: grid;
 }
@@ -207,9 +207,22 @@ footer {
   font-family: system-ui, sans-serif;
   color: #333;
   max-width: 70%;
-  
 }
 
 footer img {
   max-width: 100px;
+}
+
+@media screen and (max-width: 900px) {
+  #gridek {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "s2"
+      "s3"
+      "s4"
+      "s5";
+  }
+  body{
+    max-width: 100%;
+  }
 }
