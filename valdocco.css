@@ -243,10 +243,32 @@ section {
 
 
 footer {
+    padding-top: 20px;
+    grid-template-rows: 1fr 1fr;
     display: grid;
     grid-area: f;
 }
 
+#footerkep {
+    width: 55px;
+    display: grid;
+}
+
+
 footer img {
-    max-width: 100px;
+    padding-right: 20px;
+    max-width: 70px;
+    max-height: 70px;
+    float: left;
+}
+
+#footerlogo {
+    float: right;
+    max-width: 70px;
+    max-height: 70px;
+}
+
+#akos {
+    text-align: center;
+    margin: auto;
 }
