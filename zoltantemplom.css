@@ -201,16 +201,34 @@ section {
 }
 
 footer {
-  display: grid;
-  grid-area: f;
-  border-top: 1px solid #ccc;
-  font-family: system-ui, sans-serif;
-  color: #333;
-  max-width: 70%;
+    padding-top: 20px;
+    grid-template-rows: 1fr 1fr;
+    display: grid;
+    grid-area: f;
 }
 
+#footerkep {
+    width: 55px;
+    display: grid;
+}
+
+
 footer img {
-  max-width: 100px;
+    padding-right: 20px;
+    max-width: 70px;
+    max-height: 70px;
+    float: left;
+}
+
+#footerlogo {
+    float: right;
+    max-width: 70px;
+    max-height: 70px;
+}
+
+#asd {
+    text-align: center;
+    margin: auto;
 }
 
 @media screen and (max-width: 900px) {
