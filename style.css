@@ -34,9 +34,7 @@ body {
 .aloldalak {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "a a a a"
-    "i i i i";
+    
     gap: 20px;
     justify-items: center;
 
@@ -50,7 +48,7 @@ a {
     display: inline-block;
     background-color: rgb(198, 198, 198);
     border-radius: 10px;
-    grid-row: a;
+  
     transition: transform 0.3s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 a:hover {
@@ -80,4 +78,23 @@ p {
     padding: 10px;
     margin: 10px;
     max-width: 95%;
+}
+
+
+@media screen and (max-width: 1030px){ 
+    .aloldalak {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       
+
+}
+}
+
+@media screen and (max-width: 550px){ 
+    .aloldalak {
+        display: grid;
+        grid-template-columns: 1fr;
+       
+
+}
 }
