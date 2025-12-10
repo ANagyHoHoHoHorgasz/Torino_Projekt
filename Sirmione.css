@@ -120,7 +120,7 @@ article {
     letter-spacing: 15px;
     text-shadow:
         2px 2px 4px black,
-       -2px 2px 4px black,  /*ChatGPT*/
+       -2px 2px 4px black,  
         2px -2px 4px black,
        -2px -2px 4px black;
     align-items: center;
