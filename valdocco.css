@@ -272,3 +272,189 @@ footer img {
     text-align: center;
     margin: auto;
 }
+
+@media screen and (max-width: 1550px) {
+   article {
+    width: 100%;
+    max-width: 100vw; /*viewport width = 100% 1% = a böngésző ablak 1%-a*/
+    margin: auto;
+    grid-area: ar;
+    grid-template-columns: 1fr 1fr;
+}
+
+a {
+    display: inline-block;
+    font-size: 50px;
+    text-decoration: none;
+    color:black;
+    margin-left: 8px;
+    font-weight: 500;
+    padding: 20px;
+
+}
+
+#felirat {
+    grid-area: t;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-image: url(kepek/boscotuff.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 400px;
+    max-width: 100%;
+    height: 400px;
+    margin: 0;
+    text-align: center;
+}
+
+#felirat h3 {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    text-shadow:
+        3px 3px 5px black,
+       -3px 3px 5px black,  /*ChatGPT*/
+        3px -3px 5px black,
+       -3px -3px 5px black;
+}
+
+#Leiras {
+    background-color: rgb(204, 90, 90);
+    color: white;
+    text-align: center, justify;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#Leiras h2 {
+    font-size: 40px;
+    letter-spacing: 15px;
+    text-shadow:
+        2px 2px 4px black,
+       -2px 2px 4px black,  /*ChatGPT*/
+        2px -2px 4px black,
+       -2px -2px 4px black;
+    align-items: center;
+    text-align: center;
+    display: grid;
+}
+
+#Leiras p {
+    margin: auto;
+    max-width: 1600px;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+#kep1 {
+    display: grid;
+    grid-area: s2;
+    width: 100%;
+}
+
+#tablazat {
+    display: grid;
+    grid-area: s3;
+    background-color: white;
+}
+
+#tablazat h2 {
+    font-size: 40px;
+    letter-spacing: 15px;
+    text-align: center;
+    display: grid;
+}
+
+.valdocco {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 25px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+.valdocco th {
+    font-size: 50px;
+    letter-spacing: 10px;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid black;
+}
+
+.valdocco td {
+    padding: 20px;
+    vertical-align: middle;
+    border-bottom: 3px solid black;
+}
+
+.valdocco img {
+    width: 150px;
+}
+
+#jegyarak {
+    display: grid;
+    grid-area: s4;
+    background-color: rgb(204, 90, 90);
+    color: white;
+    text-align: center, justify;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#jegyarak h2 {
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-shadow:
+        2px 2px 4px black,
+       -2px 2px 4px black,  /*ChatGPT*/
+        2px -2px 4px black,
+       -2px -2px 4px black;
+    align-items: center;
+    text-align: center;
+    display: grid;
+}
+
+#jegyarak p {
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    display: grid;
+}
+
+#kep2 {
+    display: grid;
+    grid-area: s5;
+    width: 100%;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#gridek {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "s2 s3"
+        "s4 s5";
+    width: 100%;
+    max-width: 1900px;
+    margin: auto;
+}
+
+section {
+    grid-template-columns: 1fr;
+    display: grid;
+} 
+}
