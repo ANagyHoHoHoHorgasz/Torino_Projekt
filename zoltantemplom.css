@@ -6,7 +6,7 @@ body {
     "h"
     "ar"
     "f";
-  max-width: 90%;
+
   margin: 0 auto;
 }
 
@@ -21,13 +21,15 @@ header {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 50px;
   margin-left: 150px;
 }
+
 #title_area {
   border-right: 5px black solid;
   padding-right: 30px;
 }
+
 #header_logo {
   float: left;
   max-width: 130px;
@@ -47,8 +49,11 @@ a {
   color: black;
   margin-left: 120px;
   font-weight: 500;
+  margin-left: 8px;
   padding: 20px;
+
 }
+
 a:hover {
   font-style: italic;
   color: rgb(160, 44, 44);
@@ -58,12 +63,14 @@ a:hover {
   border-radius: 50px;
   transition: background-color 0.35s ease, transform 0.2s ease;
 }
+
 main {
   display: grid;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+
 article {
   width: 100%;
   max-width: 100vw;
@@ -201,34 +208,34 @@ section {
 }
 
 footer {
-    padding-top: 20px;
-    grid-template-rows: 1fr 1fr;
-    display: grid;
-    grid-area: f;
+  padding-top: 20px;
+  grid-template-rows: 1fr 1fr;
+  display: grid;
+  grid-area: f;
 }
 
 #footerkep {
-    width: 55px;
-    display: grid;
+  width: 55px;
+  display: grid;
 }
 
 
 footer img {
-    padding-right: 20px;
-    max-width: 70px;
-    max-height: 70px;
-    float: left;
+  padding-right: 20px;
+  max-width: 70px;
+  max-height: 70px;
+  float: left;
 }
 
 #footerlogo {
-    float: right;
-    max-width: 70px;
-    max-height: 70px;
+  float: right;
+  max-width: 70px;
+  max-height: 70px;
 }
 
 #asd {
-    text-align: center;
-    margin: auto;
+  text-align: center;
+  margin: auto;
 }
 
 @media screen and (max-width: 950px) {
@@ -240,7 +247,8 @@ footer img {
       "s4"
       "s5";
   }
-  body{
+
+  body {
     max-width: 100%;
   }
 }
