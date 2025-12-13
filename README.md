@@ -1,1 +1,1 @@
-https://www.figma.com/design/GdOBcgupGCfkKpoVVzyJ2p/figma-weboldal---valdocco?node-id=8-89  &t=b9tto7aTUjHvSD9j-1
+https://www.figma.com/design/GdOBcgupGCfkKpoVVzyJ2p/figma-weboldal---valdocco?node-id=8-89&t=b9tto7aTUjHvSD9j-1
