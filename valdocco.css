@@ -280,7 +280,7 @@ footer img {
 }
 
 nav a {
-    font-size: 40px;
+    font-size: 2.5vw;
     padding: 20px;
     margin-left: 10px;
 }
@@ -361,9 +361,7 @@ img {
     height: 100%;
 }
 
-#gridek {
-    max-width: 1900px;
-}
+
 
 section {
     grid-template-columns: 1fr;
@@ -371,10 +369,11 @@ section {
 } 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) { /*mobilos nezet*/
     header {
         grid-template-columns: 1fr;
         row-gap: 10px;
+        border-bottom: 0;
     }
 
     #title_area {
@@ -383,6 +382,8 @@ section {
         display: grid;
         grid-template-columns: auto 1fr;
         align-items: center;
+        border-bottom: 2px black solid;
+        padding: 10px;
     }
 
     h1 {
@@ -392,9 +393,23 @@ section {
     }
 
     #header_logo {
-        max-width: 90px;
+        max-width: 75px;
         float: none;
         margin: 0;
+        margin: auto;
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-bottom: 10px;
+        margin: auto;
+        border-bottom: 2px black solid;
+    }
+    
+    nav a {
+        font-size: 26px;
+        margin: auto;
     }
 
     #felirat {
